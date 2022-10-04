@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: lightskyblue;
+    background: linear-gradient(90deg, rgb(217, 221, 97) 0%, rgb(203, 149, 80));
+}
+header{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    color: rgb(230, 11, 18);
+    font-size: 25px;
+}
+img{
+    display: 400px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border: 8px solid rgb(120, 0, 176);
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+
+}
+section{
+    width: 400px;
+    height: 550px;
+    background: lightcoral;
+    margin: auto;
+    border-radius: 30px;
+    padding: 30px;
+    border: 5px solid #fff000;
+    position: relative;
+    top: -60px;
+}
+input{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 30px;
+    border: 2px solid rgb(177, 13, 13);
+    border-radius: 10px;
+}
+input:focus{
+    box-shadow: 0 0 20px rgb(186, 121, 56);
+}
+input::placeholder{
+    padding-left: 15px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+button{
+    width: 100px;
+    height: 45px;
+    margin: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    color: rgb(254, 252, 252);
+
+}
+button:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px rgb(65, 64, 64);
+}
+.claro{
+    color: #000;
+    opacity: 0.5;
+}
+.mover{
+    margin-top: 30px;
+
+}
+.btn-login{
+    background: #e21414;
+}
+.btn-face{
+    background: #4b64ed;
+}
+.btn-git{
+    background: #090101;
+}

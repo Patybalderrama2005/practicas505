@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: lightblue;
+    font-size: 25px;
+    color: rgb(20, 134, 234);
+    font-weight: bold;
+    text-align: center;
+}
+#Resultado{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: minmax(100px, auto);
+    gap: 20px;
+}
+.cajita{
+    width: 150px;
+    height: 200px;
+    margin: 15px;
+    border-radius: 20px;
+    padding: 20px;
+    background: lightcoral;
+    box-shadow: 0 0 10px blueviolet;
+    text-align: justify;
+}
+.cajita:hover{
+    transform: scale(1.01);
+    border:2px solid greenyellow
+}
+span{
+    color: lightslategray;
+    text-shadow: 0 0 5px black;
+}
+button{
+    background: saddlebrown;
+    color: antiquewhite;
+    padding: 15px;
+}
+button:hover{
+    border: 2px solid khaki;
+    transform: scale(1.05);
+}
+.user{
+    background: #000;
+    border-radius: 20px;
+    padding: 10px;
+}

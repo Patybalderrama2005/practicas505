@@ -1,16 +1,17 @@
-const consumirAPI=async ()=>{
-    const respuesta= await fetch('https://jsonplaceholder.typicode.com/todos/1')
+const consumirAPI= async ()=>{
+
+    const respuesta= await fetch("https://jsonplaceholder.typicode.com/todos/1")
     const json=await respuesta.json();
-    console.log("user id:"+json.userID);
-    console.log( "id:"+json.ID);
-    console.log("titulo:" +json.title);
-    console.log("completado:"+json.completed);
+    console.log("USER ID:"+ json.userId);
+    console.log("ID:"+ json.id);
+    console.log("USER ID:"+ json.title);
+    console.log("USER ID:"+ json.completed);
     let div=document.createElement("div");
     div.className="cajita";
-    div.innerHTML`<p><span>user id:${json.userID}</p>
-    <p> id:${json.id}</p>
-    <p>titulo:${json.titlr}</p>
-    <p>completado:${jsom.completed}</p>`;
-    Document.body.appendChild(div);
-
-}
+    div.innerHTML=`<p>  user ID: </span>${json.userId}</p>
+    <p>ID: </span>${json.id}</p>
+    <p>  Titulo :</span>${json.title}</p>
+    <p>  Completado:</span> ${json.completed}</p>
+    `;
+    document.body.appendChild(div);
+    }

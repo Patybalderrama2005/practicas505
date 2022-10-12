@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 100px;
+}
+body{
+    background: lightblue;
+    color: #090b09;
+text-align: center;
+
+}
+#Resultado{
+    width: 100%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: minmax(200px, auto) ;
+    gap: 20px;
+    }
+    .photos{
+        background: rgb(228, 10, 10);
+        border-radius: 20px;
+        padding: 20px;
+    }
+    button{
+        background: saddlebrown;
+        color: antiquewhite;
+        padding: 15px;
+    }

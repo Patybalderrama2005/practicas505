@@ -10,6 +10,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-iteration-count: infinite;
+    animation: baa 15s ease 0s;
+    align-items: center;
+    justify-content: center;
 }
 .divFrase{
     display: block;
@@ -37,4 +41,49 @@ color: bisque;
 border-radius: 10px;
 text-shadow: 10px;
 text-shadow: 0 0 5px black;
+}
+@keyframes baa {
+    0%{
+        background: url(img/imagen1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 100vh;
+    }
+    20%{
+        background: url(img/imagen2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 100vh;
+    }
+    40%{
+        background: url(img/imagen3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 100vh;
+    }
+    60%{
+        background: url(img/imagen4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 100vh;
+    }
+    80%{
+        background: url(img/imagen5.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 100vh;
+    }
+    100%{
+        background: url(img/imagen6.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 100vh;
+    }
+    
 }
